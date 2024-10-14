@@ -1,6 +1,6 @@
 ﻿namespace Ex2C___Numeric_Type_Ranges
 {
-    partial class Form1
+    partial class FormNumericTypeRanges
     {
         /// <summary>
         ///  Required designer variable.

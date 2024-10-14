@@ -1,4 +1,4 @@
-namespace Ex2C___Numeric_Type_Ranges
+namespace ex2d_if_statements
 {
     internal static class Program
     {
@@ -11,7 +11,7 @@ namespace Ex2C___Numeric_Type_Ranges
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new FormNumericTypeRanges());
+            Application.Run(new FormIfStatements());
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 
 namespace Ex2C___Numeric_Type_Ranges
 {
-    public partial class Form1 : Form
+    public partial class FormNumericTypeRanges : Form
     {
         private byte byte1, byte2, byte3;
         private sbyte sbyte1, sbyte2, sbyte3;
@@ -18,7 +18,7 @@ namespace Ex2C___Numeric_Type_Ranges
         private double double1, double2, double3;
         private decimal decimal1, decimal2, decimal3;
 
-        public Form1()
+        public FormNumericTypeRanges()
         {
             InitializeComponent();
         }
