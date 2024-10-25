@@ -124,9 +124,15 @@ namespace ex2e_boolean_calculations.Tests
 
 
         [TestMethod()]
-        public void IsLargerOrEqualsThan500Test()
+        public void IsLargerOrEqualsThan500Test1()
         {
             Assert.IsTrue(RelationalCalculations.IsLargerOrEqualsThan500(500));
+        }
+
+        [TestMethod()]
+        public void IsLargerOrEqualsThan500Test2()
+        {
+            Assert.IsTrue(RelationalCalculations.IsLargerOrEqualsThan500(500.0000001m));
         }
 
         [TestMethod()]
@@ -138,9 +144,15 @@ namespace ex2e_boolean_calculations.Tests
 
 
         [TestMethod()]
-        public void IsLessOrEqualsThanTest()
+        public void IsLessOrEqualsThanTest1()
         {
             Assert.IsTrue(RelationalCalculations.IsLessOrEqualsThan(4,4));
+        }
+
+        [TestMethod()]
+        public void IsLessOrEqualsThanTest2()
+        {
+            Assert.IsTrue(RelationalCalculations.IsLessOrEqualsThan(3.99999999m, 4));
         }
 
         [TestMethod()]
