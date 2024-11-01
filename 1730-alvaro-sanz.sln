@@ -15,9 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex2c-numeric-type-ranges", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex2d-if-statements", "ex2d-if-statements\ex2d-if-statements.csproj", "{BF15E8BB-A6F9-4701-A3B6-C02F85627537}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex2e-boolean-calculations", "ex2e-boolean-calculations\ex2e-boolean-calculations.csproj", "{B751961F-72AD-4B85-BE98-0D79704A8DED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex2e-boolean-calculations", "ex2e-boolean-calculations\ex2e-boolean-calculations.csproj", "{B751961F-72AD-4B85-BE98-0D79704A8DED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex2e-boolean-calculationsTests", "ex2e-boolean-calculationsTests\ex2e-boolean-calculationsTests.csproj", "{723F563F-3A76-4B62-B656-2F6BDB66E79B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex2e-boolean-calculationsTests", "ex2e-boolean-calculationsTests\ex2e-boolean-calculationsTests.csproj", "{723F563F-3A76-4B62-B656-2F6BDB66E79B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex2f-student-grade-calculator", "ex2f-student-grade-calculator\ex2f-student-grade-calculator.csproj", "{40FEB3D5-24DD-4850-90BD-34FB327C140D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex2f-student-grade-calculatorTests", "ex2f-student-grade-calculatorTests\ex2f-student-grade-calculatorTests.csproj", "{DBA749E1-7324-4E11-92B8-83436BF4BA52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{723F563F-3A76-4B62-B656-2F6BDB66E79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{723F563F-3A76-4B62-B656-2F6BDB66E79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{723F563F-3A76-4B62-B656-2F6BDB66E79B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40FEB3D5-24DD-4850-90BD-34FB327C140D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FEB3D5-24DD-4850-90BD-34FB327C140D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FEB3D5-24DD-4850-90BD-34FB327C140D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FEB3D5-24DD-4850-90BD-34FB327C140D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA749E1-7324-4E11-92B8-83436BF4BA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA749E1-7324-4E11-92B8-83436BF4BA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA749E1-7324-4E11-92B8-83436BF4BA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA749E1-7324-4E11-92B8-83436BF4BA52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
