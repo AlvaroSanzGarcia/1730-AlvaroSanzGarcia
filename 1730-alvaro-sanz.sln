@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex2e-boolean-calculations",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex2e-boolean-calculationsTests", "ex2e-boolean-calculationsTests\ex2e-boolean-calculationsTests.csproj", "{723F563F-3A76-4B62-B656-2F6BDB66E79B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex2f-student-grade-calculator", "ex2f-student-grade-calculator\ex2f-student-grade-calculator.csproj", "{40FEB3D5-24DD-4850-90BD-34FB327C140D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex2f-student-grade-calculator", "ex2f-student-grade-calculator\ex2f-student-grade-calculator.csproj", "{40FEB3D5-24DD-4850-90BD-34FB327C140D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex2f-student-grade-calculatorTests", "ex2f-student-grade-calculatorTests\ex2f-student-grade-calculatorTests.csproj", "{DBA749E1-7324-4E11-92B8-83436BF4BA52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex2f-student-grade-calculatorTests", "ex2f-student-grade-calculatorTests\ex2f-student-grade-calculatorTests.csproj", "{DBA749E1-7324-4E11-92B8-83436BF4BA52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex3b-student-web-app", "ex3b-student-web-app\ex3b-student-web-app.csproj", "{2416D978-F62F-410F-9E6C-9559D3CF608F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{DBA749E1-7324-4E11-92B8-83436BF4BA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBA749E1-7324-4E11-92B8-83436BF4BA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBA749E1-7324-4E11-92B8-83436BF4BA52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2416D978-F62F-410F-9E6C-9559D3CF608F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2416D978-F62F-410F-9E6C-9559D3CF608F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2416D978-F62F-410F-9E6C-9559D3CF608F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2416D978-F62F-410F-9E6C-9559D3CF608F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
