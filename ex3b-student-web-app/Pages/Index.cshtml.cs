@@ -5,16 +5,22 @@ namespace ex3b_student_web_app.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        [BindProperty]
+        public DateTime BirthDate { get; set; }
 
-        public IndexModel(ILogger<IndexModel> logger)
-        {
-            _logger = logger;
-        }
+        public DateTime TodayDate { get; set; }
+        public int Age { get; set; }
 
         public void OnGet()
         {
+            TodayDate = DateTime.Today;
+        }
 
+        public void OnPost() 
+        {
+            TodayDate = DateTime.Today;
+
+            Age = TodayDate.Year - BirthDate.Year;
         }
     }
 }

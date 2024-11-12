@@ -4,7 +4,18 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>Age Calculator</h1>
+
+<p>Today's date is @Model.TodayDate.ToLongDateString()</p>
+
+<form method="post">
+    <label>Enter your birthday</label>
+    <input type="date" id="birthdate" asp-for="BirthDate" required />
+    <button type="submit">Calculate Age</button>
+</form>
+
+@if (Model.Age != null)
+{
+    <h4>Your age is @Model.Age years</h4>
+}
+
