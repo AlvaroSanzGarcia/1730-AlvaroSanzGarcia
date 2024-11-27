@@ -117,6 +117,7 @@
             // rbBook
             // 
             rbBook.AutoSize = true;
+            rbBook.Checked = true;
             rbBook.Font = new Font("Segoe UI", 12F);
             rbBook.Location = new Point(105, 33);
             rbBook.Name = "rbBook";
@@ -125,6 +126,7 @@
             rbBook.TabStop = true;
             rbBook.Text = "Book";
             rbBook.UseVisualStyleBackColor = true;
+            rbBook.CheckedChanged += rbBook_CheckedChanged;
             // 
             // rbSoftware
             // 

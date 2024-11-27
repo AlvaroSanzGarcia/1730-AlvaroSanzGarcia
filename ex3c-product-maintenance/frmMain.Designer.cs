@@ -63,6 +63,7 @@
             btnDelete.TabIndex = 2;
             btnDelete.Text = "&Delete Product";
             btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
             // 
             // btnExit
             // 
@@ -89,6 +90,7 @@
             Name = "frmMain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Product Maintenance";
+            Load += frmMain_Load;
             ResumeLayout(false);
         }
 

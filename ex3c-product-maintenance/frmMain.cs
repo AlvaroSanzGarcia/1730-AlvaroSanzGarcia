@@ -2,8 +2,8 @@
 {
     public partial class frmMain : Form
     {
-        
-        private List<Product> products = new();
+
+        private ProductList products = new();
 
         public frmMain()
         {
@@ -35,6 +35,24 @@
             {
                 lstbxProducts.Items.Add(p);
             }
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            products.LoadFromDatabase();
+            FillProductListBox();
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            Product selectedProduct = (Product)lstbxProducts.SelectedItem;
+
+            if ( selectedProduct != null) 
+            {
+                products.Remove(selectedProduct);
+                FillProductListBox();
+            }
+            
         }
     }
 }
