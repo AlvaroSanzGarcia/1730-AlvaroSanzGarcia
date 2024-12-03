@@ -14,7 +14,7 @@
             Assert.IsNotNull(book.Price);
             Assert.IsNotNull(book.Author);
             Assert.AreEqual(book.Code, "ABC");
-            Assert.AreEqual(book.Description, "New book");
+            Assert.AreEqual(book.Description, "New Book");
             Assert.AreEqual(book.Price, 27.0m);
             Assert.AreEqual(book.Author, "Joel Murach");
         }
