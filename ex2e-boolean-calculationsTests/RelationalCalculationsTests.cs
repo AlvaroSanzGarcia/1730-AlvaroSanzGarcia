@@ -26,13 +26,13 @@ namespace ex2e_boolean_calculations.Tests
 
 
         [TestMethod()]
-        public void IsEmptykTest()
+        public void IsEmptyTest()
         {
             Assert.IsTrue(RelationalCalculations.IsEmpty(""));
         }
 
         [TestMethod()]
-        public void IsNotEmptykTest()
+        public void IsNotEmptyTest()
         {
             Assert.IsFalse(RelationalCalculations.IsEmpty("hello"));
         }
