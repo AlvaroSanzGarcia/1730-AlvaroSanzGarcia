@@ -50,8 +50,8 @@ namespace ex1c_food_truck
           
 
             //Result display
-            textBoxHotDogTotal.Text = Cart.GetProductTotal(hotDog.Amount, hotDog.Price).ToString("c");
-            textBoxHamburgerTotal.Text = Cart.GetProductTotal(hamburger.Amount, hamburger.Price).ToString("c");
+            textBoxHotDogTotal.Text = Cart.AddToCart(hotDog.Amount, hotDog.Price).ToString("c");
+            textBoxHamburgerTotal.Text = Cart.AddToCart(hamburger.Amount, hamburger.Price).ToString("c");
             textBoxPretaxTotal.Text = Cart.GetPretaxTotal().ToString("c");
             textBoxTaxTotal.Text = Cart.GetTaxTotal().ToString("c");
             textBoxTotal.Text = Cart.GetTotalAfterTax().ToString("c");

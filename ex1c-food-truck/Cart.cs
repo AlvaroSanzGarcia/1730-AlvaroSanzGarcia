@@ -9,7 +9,7 @@
         static List<decimal> cart = new List<decimal>();
 
 
-        public static decimal GetProductTotal(int amount, decimal price) 
+        public static decimal AddToCart(int amount, decimal price) 
         {
             productTotal = amount * price;
             cart.Add(productTotal);
